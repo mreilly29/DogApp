@@ -1,0 +1,21 @@
+﻿@model DogApp.Models.Dog
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>    
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Details for @Model.Name</h1>
+    <p>This page will display details for @Model.Name</p>
+    <img src="~/Images/@Model.Url" width="200"/>
+</body>
+</html>
